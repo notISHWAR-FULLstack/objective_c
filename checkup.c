@@ -20,7 +20,7 @@ int main(){
     dob *end=NULL;
     //int pos=0;
     for(long long int i = 0 ; i<input;++i){
-            long long nint temp;
+            long long int temp;
             dob *tomp;
             tomp=(dob*)malloc(sizeof(dob));
             scanf("%lld",&temp);
